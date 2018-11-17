@@ -1,0 +1,210 @@
+// Base
+
+* {
+    background: 0 0;
+    border: 0;
+    color: $color-dark;
+    font: 300 20px/1.5 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: 100%;
+    transition-duration: .3s;
+    transition-property: background-color, border-color, color;
+    vertical-align: baseline;
+
+    @include small {
+        font-size: 16px;
+    }
+
+    &:focus {
+        outline: 0;
+    }
+}
+
+img {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 100%;
+}
+
+// Base > Typography
+
+.caps {
+    font-size: .8rem;
+    letter-spacing: .05rem;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 2rem;
+    line-height: 1.4;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
+h2,
+p {
+    margin-bottom: 1rem;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+a,
+p,
+li {
+    color: $color-medium;
+
+    .inverted & {
+        color: $color-medium-inverted;
+    }
+}
+
+small {
+    color: $color-medium;
+    font-size: .6rem;
+
+    .inverted & {
+        color: $color-medium-inverted;
+    }
+}
+
+a {
+    position: relative;
+    text-decoration: none;
+
+    &::before,
+    &::after {
+        bottom: -.2rem;
+        content: '';
+        height: 1px;
+        left: 0;
+        position: absolute;
+        width: 100%;
+    }
+
+    &::before {
+        background: $color-light;
+
+        .inverted & {
+            background: $color-light-inverted;
+        }
+    }
+
+    &::after {
+        background: $color-dark;
+        transform: scale3d(0, 1, 1);
+        transform-origin: left;
+        transition: all .3s cubic-bezier(.19, 1, .22, 1);
+
+        .inverted & {
+            background: $color-dark-inverted;
+        }
+    }
+
+    &:hover,
+    &.router-link-active {
+        color: $color-dark;
+
+        .inverted & {
+            color: $color-dark-inverted;
+        }
+
+        &::after {
+            transform: scale3d(1, 1, 1);
+        }
+    }
+}
+
+ul {
+    list-style: none;
+    padding-left: 1.5rem;
+    position: relative;
+
+    li::before {
+        content: "—";
+        left: 0;
+        position: absolute;
+    }
+}
+
+// Base > Layout
+
+main {
+    box-sizing: border-box;
+    padding: 6rem 0 4rem 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: calc(100% - 4rem);
+}
+
+// Base > Schemes
+
+.inverted {
+    background: $color-dark;
+
+    * {
+        color: $color-dark-inverted;
+    }
+}
+
+// Base > Animation
+
+.projects .container *,
+.projects .tile,
+.project *,
+.about * {
+    animation: zoomIn .8s forwards;
+    opacity: 0;
+}
+
+@keyframes zoomIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+@for $i from 1 through 10 {
+
+    $delay: ($i / 10) + s;
+
+    .projects .container *,
+    .about *:nth-child(#{$i}) {
+        animation-delay: $delay;
+    }
+
+    .projects .tile:nth-of-type(#{$i}) {
+        animation-delay: (($i + 2) / 10) + s;
+    }
+
+    @if $i == 1 {
+        .projects .container h1,
+        .project .container.details {
+            animation-delay: $delay;
+        }
+    }
+
+    @elseif $i == 2 {
+        .projects .container a,
+        .project img:first-of-type {
+            animation-delay: $delay;
+        }
+    }
+
+    @elseif $i == 3 {
+        .project .bg .details {
+            animation-delay: $delay;
+        }
+    }
+
+    @elseif $i >= 4 and $i <= 6 {
+        .project img:nth-of-type(#{$i - 2}) {
+            animation-delay: $delay;
+        }
+    }
+}

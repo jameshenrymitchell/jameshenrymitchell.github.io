@@ -1,0 +1,102 @@
+[
+  {
+    "id": "legalzoom",
+    "title": "LegalZoom",
+    "scope": "User Experience",
+    "desc": "LLC, Easy as&nbsp;1-2-3",
+    "date": "2018",
+    "longdesc": "LegalZoom is a disruptive online startup, providing legal services including Limited Liability Company (LLC) creation. User&nbsp;research&mdash;led by LegalZoom’s R&D department&mdash;uncovered deficiencies in their LLC landing page. The&nbsp;following proposal sought to communicate key benefits more succinctly and encourage Express Gold subscriptions, among&nbsp;other&nbsp;KPIs.",
+    "img": ["Landing Page Hero Area", "Checkout Process", "Landing Page Comparison Table", "Restructured Footer Component"],
+    "color": "#1c70e1"
+  },
+  {
+    "id": "hillbrush",
+    "title": "Hillbrush",
+    "scope": "Brand Strategy &nbsp;·&nbsp; Identity",
+    "desc": "The New Face of&nbsp;Cleaning",
+    "date": "2016",
+    "longdesc": "First established in 1922, Hillbrush is a cleaning tool manufacturer, now exporting to over 95 countries worldwide. The&nbsp;outcome of a strategic rebrand was a robust <a href='//brand.hillbrush.com' target='_blank'>identity&nbsp;system</a>, using monolithic brand architecture to gel a diverse portfolio. Immediate results were simpler product navigation across eCommerce, a 63% reduction in catalogue length and a clear relationship between previously abstract&nbsp;brands.",
+    "img": ["Brand Portal", "Master Brand", "Product Brands", "Multilingual Product Catalogue"],
+    "color": "#173d68"
+  },
+  {
+    "id": "ibm",
+    "title": "IBM",
+    "scope": "Identity &nbsp;·&nbsp; User Experience",
+    "desc": "Storage Zone",
+    "date": "2018",
+    "longdesc": "IBM required a central platform for sharing their Storage division activities with Business Partners. It&nbsp;was aptly named Storage Zone and attributed a bold, vibrant identity. A&nbsp;componentised UI library was developed specifically for the platform, leveraging the IBM Design Language to ensure experiential continuity with other IBM&nbsp;products.",
+    "img": ["Personalised Portal Dashboard", "Marketing Material", "Logo Variants", "Portal Login"],
+    "color": "#352969"
+  },
+  {
+    "id": "hpe",
+    "title": "Hewlett Packard Enterprise",
+    "scope": "Integrated Campaign",
+    "desc": "Accelerating Science",
+    "date": "2017",
+    "longdesc": "As part of a strategic focus on high-performance computing, this HPE and NVIDIA campaign was directed at scientists with outdated simulation hardware. Display&nbsp;advertising was used across LinkedIn and ResearchGate, with these touchpoints leading to a microsite that captured data from gated&nbsp;content.",
+    "img": ["Microsite Data Capture", "Display Advertising", "Microsite Introduction", "ResearchGate Article"],
+    "color": "#2f8a8a"
+  },
+  {
+    "id": "lexonis",
+    "title": "Lexonis",
+    "scope": "Product Marketing",
+    "desc": "Humanising Resource",
+    "date": "2017",
+    "longdesc": "Lexonis is a HR software house focused on competency management. After&nbsp;refreshing their identity, Lexonis required support with brand implementation, including a series of product leaflets and email&nbsp;communications.",
+    "img": ["Reverse of Essentials Product Leaflet", "Email Communications", "TalentScape Product Leaflet", "Product Brand Configuration"],
+    "color": "#76b72a"
+  },
+  {
+    "id": "crmknowledge",
+    "title": "CRM Knowledge",
+    "scope": "Integrated Campaign",
+    "desc": "Kick Start Your&nbsp;CRM",
+    "date": "2017",
+    "longdesc": "CRM Knowledge is a consultancy practice that optimises CRM implementations. The&nbsp;campaign was a lead generation exercise targeting marketing managers and system administrators. To&nbsp;cater for differing audiences, communications were tailored and led to particular sections within a landing page. Organic traffic self-identified through the use of progressive disclosure within the content&nbsp;strategy.",
+    "img": ["Landing Page Intent Funnel", "Email Communications", "Landing Page Narrative", "Landing Page Mobile View"],
+    "color": "#0f72be"
+  },
+  {
+    "id": "miointeriors",
+    "title": "Mio Interiors",
+    "scope": "Brand Development &nbsp;·&nbsp; Digital",
+    "desc": "More Than a Lick of&nbsp;Paint",
+    "date": "2016",
+    "longdesc": "Mio Interiors is a design studio and retail outlet for luxury homeware brands. As&nbsp;part of the project to overhaul their website, Mio’s service areas were repackaged and design offering brought to the fore. This allowed the business to explore a new trajectory without upsetting their brand&nbsp;image.",
+    "img": ["Home Page", "Services Feature", "Mobile View", "Fabrics Showcase"],
+    "color": "#002947"
+  },
+  {
+    "id": "nieuwebeelding",
+    "title": "Nieuwe Beelding",
+    "scope": "Type Design &nbsp;·&nbsp; Digital",
+    "desc": "Constructing a New Visual&nbsp;Language",
+    "date": "2014",
+    "longdesc": "Nieuwe Beelding was a self-initiated type design project inspired by painter Piet Mondrian. The&nbsp;typeface is geometric, adopting the strict visual language of Nieuwe Beelding (translated as Neoplasticism). Five&nbsp;weights were produced, ranging from Thin to Black, and presented using a foldout specimen booklet and range of creative posters. A&nbsp;microsite was later developed as a point of sale, allowing users to trial custom content in Nieuwe&nbsp;Beelding.",
+    "img": ["Foldout Specimen Booklet", "Booklet Spread", "Sketches", "Trial Interface"],
+    "color": "#81181e"
+  },
+  {
+    "id": "southwest",
+    "title": "South West",
+    "scope": "Identity &nbsp;·&nbsp; User Experience",
+    "desc": "Travel by&nbsp;Train",
+    "date": "2013",
+    "longdesc": "Proposal for former train operator, South West Trains, to elevate perceptions and stimulate growth. Custom&nbsp;lettering with gentle curves uses ligatures to mimic the linkage between train carriages. The&nbsp;longstanding colour palette was preserved, though rebalanced, to capitalise on prior efforts in brand awareness that would have built&nbsp;familiarity.",
+    "img": ["Printed Literature", "Custom Logotype", "Journey Booking Interface", "Train Livery"],
+    "color": "#cb561b"
+  },
+  {
+    "id": "archive",
+    "title": "Archive",
+    "scope": "Miscellaneous",
+    "desc": "2012–2014",
+    "date": "2012–2014",
+    "longdesc": null,
+    "img": ["Best of Britain’s Bridges: Postage Stamps", "Here to Offer Health Initiative: Identity", "Gillingham School Art Exhibition: Poster", "Whistley Farm: Identity"],
+    "color": "#437c83"
+  }
+]

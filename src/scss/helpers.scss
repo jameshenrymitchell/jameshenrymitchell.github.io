@@ -1,0 +1,36 @@
+// Helpers > Parameters
+
+$color-light: rgba(0, 0, 0, .1);
+$color-light-inverted: rgba(255, 255, 255, .2);
+
+$color-medium: rgba(0, 0, 0, .6);
+$color-medium-inverted: rgba(255, 255, 255, .6);
+
+$color-dark: rgba(0, 0, 0, 1);
+$color-dark-inverted: rgba(255, 255, 255, .95);
+
+// Helpers > Mixins
+
+@mixin large {
+    @media screen and (max-width: 1604px) {
+        @content;
+    }
+}
+
+@mixin medium {
+    @media screen and (max-width: 880px) {
+        @content;
+    }
+}
+
+@mixin image-width {
+    @media screen and (max-width: 800px) {
+        @content;
+    }
+}
+
+@mixin small {
+    @media screen and (max-width: 520px) {
+        @content;
+    }
+}
