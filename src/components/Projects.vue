@@ -1,14 +1,15 @@
 <template>
-  <main class="container projects">
-    <div class="container">
-      <h1>Hey, I’m James. A&nbsp;designer and developer, hoping to make the world (wide web) a better&nbsp;place.</h1>
-      <router-link tag="a" class="caps" to="/about">Learn more</router-link>
+  <main>
+    <div class="intro">
+      <h1>Shaping brands and digital&nbsp;experiences.</h1>
+      <p>Over the past six years, I've helped organisations of all sizes to pursue their goals. The digital economy is a forest of complex, interconnected ideas; where design can offer clarity through an interative process of enquiry, empathy and challenge.</p>
+      <p><a href="mailto:hello@jamesmitchell.info">Drop me a line</a> if you’d like to discuss a project, or simply say&nbsp;hello.</p>
     </div>
     <div class="tiles">
-      <router-link tag="div" class="tile" :style="{ background: project.color }" :to="'/projects/' + project.id" v-for="project in projects" :data="project" :key="project.id">
-        <div class="overlay">
-          <h2 v-html="project.title"></h2>
-          <p v-html="project.desc" v-if="project.id != 'nieuwebeelding' && project.id != 'archive'"></p>
+      <router-link tag="div" class="tile" :to="'/projects/' + project.id" v-for="project in projects" v-if="project.archive == false" :data="project" :key="project.id">
+        <div class="overlay" :style="{ background: project.color }">
+          <h2 v-html="project.desc"></h2>
+          <p v-html="project.title"></p>
         </div>
         <img :src="'/static/img/' + project.id + '0.png'" :alt="project.title">
       </router-link>
@@ -19,89 +20,64 @@
 <style lang="scss" scoped>
   @import "../scss/helpers";
 
-  main {
-      max-width: 1604px;
-      text-align: center;
-      width: 100%;
-
-      @include large {
-          padding-bottom: 4px;
+  .intro {
+      @include image-width {
+          padding: 0 7.5vw;
       }
+  }
 
-      .container {
-          margin-bottom: 4rem;
-          max-width: 800px;
+  .tiles {
+      .tile {
+          cursor: pointer;
+          margin-bottom: 5.25rem;
+          position: relative;
+          width: 100%;
 
-          @include medium {
-              text-align: left;
+          @include image-width {
+              margin-bottom: 1.325rem;
           }
-      }
 
-      .tiles {
-          display: flex;
-          flex-wrap: wrap;
+          &:last-of-type {
+              margin-bottom: 0;
+          }
 
-          .tile {
-              cursor: pointer;
-              flex-basis: calc(50% - 2px);
-              margin-bottom: 4px;
-              position: relative;
+          &:hover {
+             .overlay {
+                 opacity: .975;
+             }
+          }
 
-              &:nth-of-type(even) {
-                  margin-left: auto;
+          .overlay {
+              bottom: 0;
+              left: 0;
+              opacity: 0;
+              padding: 6.3%;
+              position: absolute;
+              right: 0;
+              top: 0;
+              transition-property: opacity;
+
+              @include image-width {
+                  padding: 7.5vw;
               }
 
-              &:nth-of-type(9),
-              &:nth-of-type(10) {
-                  margin-bottom: 0;
+              h2 {
+                  color: $color-dark-inverted;
+                  margin-bottom: .125rem;
               }
 
-              &:hover {
-                 .overlay {
-                     transform: scale(1.05);
-                     transition: transform .3s;
-                 }
+              p {
+                  color: $color-medium-inverted;
+              }
+          }
 
-                 img {
-                     filter: grayscale(25);
-                     opacity: 0.1;
-                     transition: all 1s;
-                 }
+          &:last-of-type .overlay {
+              h2 {
+                  color: $color-dark;
               }
 
-              .overlay {
-                  bottom: 0;
-                  display: flex;
-                  flex-direction: column;
-                  justify-content: center;
-                  left: 0;
-                  padding: 6.3%;
-                  position: absolute;
-                  right: 0;
-                  top: 0;
-
-                  h2 {
-                    color: $color-dark-inverted;
-                    margin-bottom: 0;
-                  }
-
-                  p {
-                    color: $color-medium-inverted;
-                  }
-              }
-
-              img {
-                  filter: grayscale(100);
-                  opacity: .025;
-                  transition-property: opacity;
-              }
-
-              @include medium {
-                  flex-basis: 100%;
-
-                  &:nth-of-type(9) {
-                      margin-bottom: 4px;
-                  }
+              p {
+                  color: $color-medium;
               }
           }
       }

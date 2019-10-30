@@ -7,13 +7,11 @@ import router from './router'
 
 import Header from './components/Header'
 import App from './App'
-import Footer from './components/Footer'
 
 // Register components
 
 Vue.component('app-header', Header)
 Vue.component('app', App)
-Vue.component('app-footer', Footer)
 
 // Instantiate Vue
 

@@ -1,18 +1,16 @@
 // Helpers > Parameters
 
-$color-light: rgba(0, 0, 0, .1);
-$color-light-inverted: rgba(255, 255, 255, .2);
-
+$color-light: rgba(0, 0, 0, .05);
+$color-light-medium: rgba(0, 0, 0, .4);
 $color-medium: rgba(0, 0, 0, .6);
 $color-medium-inverted: rgba(255, 255, 255, .6);
-
 $color-dark: rgba(0, 0, 0, 1);
-$color-dark-inverted: rgba(255, 255, 255, .95);
+$color-dark-inverted: rgba(255, 255, 255, 1);
 
 // Helpers > Mixins
 
-@mixin large {
-    @media screen and (max-width: 1604px) {
+@mixin desk {
+    @media screen and (max-width: 1340px) {
         @content;
     }
 }
@@ -29,7 +27,7 @@ $color-dark-inverted: rgba(255, 255, 255, .95);
     }
 }
 
-@mixin small {
+@mixin phone {
     @media screen and (max-width: 520px) {
         @content;
     }

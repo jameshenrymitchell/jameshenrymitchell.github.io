@@ -1,4 +1,5 @@
 .DS_Store
+projects.example.json
 node_modules/
 /dist/
 npm-debug.log*

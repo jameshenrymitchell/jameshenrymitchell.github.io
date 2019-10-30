@@ -7,7 +7,6 @@ import Router from 'vue-router'
 
 import Projects from '@/components/Projects'
 import ProjectDetail from '@/components/ProjectDetail'
-import About from '@/components/About'
 
 // Instantiate Vue Router
 
@@ -18,7 +17,7 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
-      path: '/',
+      path: '*',
       redirect: '/projects'
     },
     {
@@ -31,11 +30,6 @@ export default new Router({
       name: 'ProjectDetail',
       component: ProjectDetail,
       props: true
-    },
-    {
-      path: '/about',
-      name: 'About',
-      component: About
     }
   ],
   scrollBehavior(to, from, savedPosition) {
