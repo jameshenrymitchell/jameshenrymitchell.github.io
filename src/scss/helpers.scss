@@ -1,0 +1,31 @@
+// Helpers > Colours
+
+$color-light: rgba(0, 0, 0, .05);
+$color-light-inverted: rgba(255, 255, 255, .05);
+
+$color-light-medium: rgba(0, 0, 0, .4);
+$color-light-medium-inverted: rgba(255, 255, 255, .4);
+
+$color-medium: rgba(0, 0, 0, .6);
+$color-medium-inverted: rgba(255, 255, 255, .7);
+
+$color-dark: rgba(0, 0, 0, 1);
+$color-dark-inverted: rgba(255, 255, 255, 1);
+
+// Helpers > Miscellaneous
+
+$border-radius: .75rem;
+
+// Helpers > Mixins
+
+@mixin desk {
+    @media screen and (max-width: 1340px) {
+        @content;
+    }
+}
+
+@mixin phone {
+    @media screen and (max-width: 520px) {
+        @content;
+    }
+}

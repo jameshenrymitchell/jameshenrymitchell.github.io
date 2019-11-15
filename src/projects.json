@@ -1,0 +1,170 @@
+[
+  {
+    "id": "legalzoom",
+    "title": "Making incorporation easy",
+    "client": "LegalZoom",
+    "role": "Visual Design, UI/UX",
+    "date": "2018",
+    "desc": "LegalZoom is a disruptive online startup, providing legal services including Limited Liability Company (LLC) creation. User&nbsp;research&mdash;led by LegalZoom’s R&D department&mdash;uncovered deficiencies in their LLC landing page. The&nbsp;following proposal sought to communicate key benefits more succinctly and encourage Express Gold subscriptions, among&nbsp;other&nbsp;KPIs.",
+    "img": [
+      {
+        "alt": "Landing Page Hero Area",
+        "commentary": null
+      },
+      {
+        "alt": "Checkout Process",
+        "commentary": null
+      },
+      {
+        "alt": "Landing Page Comparison Table",
+        "commentary": null
+      },
+      {
+        "alt": "Restructured Footer Component",
+        "commentary": null
+      }
+    ],
+    "color": "#1c70e1",
+    "archive": false
+  },
+  {
+    "id": "ibm",
+    "title": "Building a community",
+    "client": "IBM",
+    "role": "Visual Identity, UI/UX",
+    "date": "2018",
+    "desc": "IBM required a central platform for sharing their Storage division activities with Business Partners. It&nbsp;was aptly named Storage Zone and attributed a bold, vibrant identity. A&nbsp;componentised UI library was developed specifically for the platform, leveraging the IBM Design Language to ensure experiential continuity with other IBM&nbsp;products.",
+    "img": [
+      {
+        "alt": "Personalised Portal Dashboard",
+        "commentary": null
+      },
+      {
+        "alt": "Marketing Material",
+        "commentary": null
+      },
+      {
+        "alt": "Logo Variants",
+        "commentary": null
+      },
+      {
+        "alt": "Portal Login",
+        "commentary": null
+      }
+    ],
+    "color": "#352969",
+    "archive": false
+  },
+  {
+    "id": "hpe",
+    "title": "Accelerating life sciences",
+    "client": "Hewlett Packard Enterprise",
+    "role": "Visual Design, Digital Development",
+    "date": "2017",
+    "desc": "As part of a strategic focus on high-performance computing, this HPE and NVIDIA campaign was directed at scientists with outdated simulation hardware. Display&nbsp;advertising was used across LinkedIn and ResearchGate, with these touchpoints leading to a microsite that captured data from gated&nbsp;content.",
+    "img": [
+      {
+        "alt": "Microsite Data Capture",
+        "commentary": null
+      },
+      {
+        "alt": "Display Advertising",
+        "commentary": null
+      },
+      {
+        "alt": "Microsite Introduction",
+        "commentary": null
+      },
+      {
+        "alt": "ResearchGate Article",
+        "commentary": null
+      }
+    ],
+    "color": "#2f8a8a",
+    "archive": false
+  },
+  {
+    "id": "hillbrush",
+    "title": "Distilling a brand",
+    "client": "Hillbrush",
+    "role": "Brand Strategy, Visual Identity, Catalogue Design, UI/UX",
+    "date": "2016",
+    "desc": "First established in 1922, Hillbrush is a cleaning tool manufacturer, now exporting to over 95 countries worldwide. The&nbsp;outcome of a strategic rebrand was a robust <a href='//brand.hillbrush.com' target='_blank'>identity&nbsp;system</a>, using monolithic brand architecture to gel a diverse portfolio. Immediate results were simpler product navigation across eCommerce, a 63% reduction in catalogue length and a clear relationship between previously abstract&nbsp;brands.",
+    "img": [
+      {
+        "alt": "Brand Portal",
+        "commentary": null
+      },
+      {
+        "alt": "Master Brand",
+        "commentary": null
+      },
+      {
+        "alt": "Product Brands",
+        "commentary": null
+      },
+      {
+        "alt": "Multilingual Product Catalogue",
+        "commentary": null
+      }
+    ],
+    "color": "#0098bc",
+    "archive": false
+  },
+  {
+    "id": "lexonis",
+    "title": "Humanising resources",
+    "client": "Lexonis",
+    "role": "Brand Development, Marketing Collateral",
+    "date": "2017",
+    "desc": "Lexonis is a HR software house focused on competency management. After&nbsp;refreshing their identity, Lexonis required support with brand implementation, including a series of product leaflets and email&nbsp;communications.",
+    "img": [
+      {
+        "alt": "Reverse of Essentials Product Leaflet",
+        "commentary": null
+      },
+      {
+        "alt": "Email Communications",
+        "commentary": null
+      },
+      {
+        "alt": "TalentScape Product Leaflet",
+        "commentary": null
+      },
+      {
+        "alt": "Product Brand Configuration",
+        "commentary": null
+      }
+    ],
+    "color": "#76b72a",
+    "archive": false
+  },
+  {
+    "id": "nieuwebeelding",
+    "title": "Painting a typeface",
+    "client": "Nieuwe Beelding",
+    "role": "Type Design, UI, Digital Development",
+    "date": "2014",
+    "desc": "Nieuwe Beelding was a self-initiated type design project inspired by painter Piet Mondrian. The&nbsp;typeface is geometric, adopting the strict visual language of Nieuwe Beelding (translated as Neoplasticism). Five&nbsp;weights were produced, ranging from Thin to Black, and presented using a foldout specimen booklet and range of creative posters. A&nbsp;microsite was later developed as a point of sale, allowing users to trial custom content in Nieuwe&nbsp;Beelding.",
+    "img": [
+      {
+        "alt": "Foldout Specimen Booklet",
+        "commentary": null
+      },
+      {
+        "alt": "Booklet Spread",
+        "commentary": null
+      },
+      {
+        "alt": "Sketches",
+        "commentary": null
+      },
+      {
+        "alt": "Trial Interface",
+        "commentary": null
+      }
+    ],
+    "color": "#81181e",
+    "archive": false
+  }
+]
