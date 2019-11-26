@@ -1,7 +1,7 @@
 <template>
   <main>
     <div class="intro">
-      <h1 data-aos="fade">Shaping the brands and digital experiences of tomorrow</h1>
+      <h1 data-aos="fade">Shaping the brands and digital experiences&nbsp;of tomorrow</h1>
       <p data-aos="fade">From elevating brand perceptions to forging more meaningful bonds with customers, I’ve spent the past six years helping companies realise their potential. The digital economy is a forest of complex, interconnected ideas, and design is our compass; a catalyst for positive change. Only through an iterative process of enquiry, empathy and challenge, can we expect to answer tomorrow’s&nbsp;needs.</p>
     </div>
     <router-link data-aos="fade" tag="div" class="image" :to="'/projects/' + project.id" v-for="project in projects" v-if="project.archive == false" :data="project" :key="project.id">
@@ -27,6 +27,13 @@
 
       h2 {
           margin: 2.625rem 0 .125rem 0;
+      }
+
+      h2,
+      p {
+        @include phone {
+            transform: translateX(7.5vw);
+        }
       }
   }
 
