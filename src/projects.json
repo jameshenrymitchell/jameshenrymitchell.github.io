@@ -1,37 +1,5 @@
 [
   {
-    "id": "livingdna",
-    "title": "Bringing ancestry to&nbsp;life",
-    "client": "Living DNA",
-    "role": "Information Architecture, User Research, UI/UX",
-    "date": "2019",
-    "desc": "With a simple swab test, Living DNA illustrates not only your regional ancestry results, but how all we are all related at some point in time. While founded on a noble premise, the product was shrouded in intimidating, scientific jargon. Together with the wider Product team, our first challenge was to liberate the experience of opaque terminology and make test results simple to&nbsp;understand.",
-    "img": [
-      {
-        "alt": "Dashboard",
-        "commentary": "Alongside an overhaul of the existing navigation, which we incrementally deployed, we also developed a dynamic dashboard. This served as the hub of all in-app activity, reporting on order statuses, test results, new user matches and prompts for users to engage with the product on a deeper&nbsp;level."
-      },
-      {
-        "alt": "Activation & Upload",
-        "commentary": "The onboarding experience was cumbersome and technically unreliable, and so while migrating between engineering stacks, we rethought the login, registration, testing kit activation and DNA upload processes. The new flows tested positively and saw a reduction in customer service&nbsp;tickets."
-      },
-      {
-        "alt": "DNA Profiles",
-        "commentary": "The product allows account holders to upload multiple DNA profiles, belonging to different people, so that results can be compared. The new navigation affords quick toggling between results, now available globally rather than buried in a settings menu. The DNA Profiles module quickly summarises information in a tabular format, and provides tools to update a wealth of information and preferences, relating specifically to a&nbsp;profile."
-      },
-      {
-        "alt": "Ancestry",
-        "commentary": "Ancestry results have long been the core of the product, but also where much of the confusion with users arose. Having crafted and tested a new suite of nomenclature to narrate the results, we set about to improve the storytelling. The experience is divided into purchasable units, that a user can unlock via an express checkout. Working with a third-party map service, we were able to achieve dual-synchronicity between peripheral UI controls and the map itself. In this case, the technology allowed for a cleaner, digestible, and fully navigable mobile&nbsp;experience."
-      },
-      {
-        "alt": "Wellbeing",
-        "commentary": "Finally, we introduced an entirely new offering that reported on health-related traits. The Wellbeing module allows users to select a facet of their wellbeing that they wish to improve, and recieve tailored recommendations based on DNA test results. In the product development process, we distilled our prospective user base into three varied personas, used to model much of our design&nbsp;decisions."
-      }
-    ],
-    "color": "#173673",
-    "archive": false
-  },
-  {
     "id": "legalzoom",
     "title": "Making incorporation easy",
     "client": "LegalZoom",
